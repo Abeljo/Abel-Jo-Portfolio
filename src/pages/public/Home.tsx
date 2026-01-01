@@ -185,9 +185,9 @@ const Home: React.FC = () => {
                                 onTouchEnd={handlePressEnd}
                                 whileHover={{ scale: 1.05 }}
                             >
-                                <span className="text-sm font-display font-bold bg-gradient-to-r from-emerald-400 via-emerald-500 to-emerald-600 bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%] drop-shadow-[0_0_10px_rgba(16,185,129,0.5)]">
+                                {/* <span className="text-sm font-display font-bold bg-gradient-to-r from-emerald-400 via-emerald-500 to-emerald-600 bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%] drop-shadow-[0_0_10px_rgba(16,185,129,0.5)]">
                                     Rehoboth
-                                </span>
+                                </span> */}
 
                                 {/* Tooltip */}
                                 {showVerse && (

@@ -5,7 +5,7 @@ export const achievementsData: Achievement[] = [
         ID: 1,
         title: 'BSc in Computer Science',
         description: 'Graduated from Microlink IT College with a CGPA of 3.69.',
-        date: new Date().getFullYear().toString() // You can update this with your actual graduation year
+        date: "Aug 5, 2023" // You can update this with your actual graduation year
     }
 ];
 
