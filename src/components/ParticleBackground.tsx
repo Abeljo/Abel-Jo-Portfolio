@@ -14,7 +14,7 @@ const ParticleBackground: React.FC = () => {
     const { theme } = useTheme();
     const particlesRef = useRef<Particle[]>([]);
     const mouseRef = useRef({ x: 0, y: 0 });
-    const animationRef = useRef<number>();
+    const animationRef = useRef<number>(undefined);
 
     useEffect(() => {
         const canvas = canvasRef.current;

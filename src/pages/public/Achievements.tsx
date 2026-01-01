@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { achievementsData } from '../../data/achievements';
-import type { Achievement } from '../../types';
+
 import { Award, Calendar } from 'lucide-react';
 
 const Achievements: React.FC = () => {
@@ -31,7 +31,7 @@ const Achievements: React.FC = () => {
                     >
                         {/* Shining border effect */}
                         <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-transparent via-emerald-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-1000 animate-shimmer bg-[length:200%_100%]" />
-                        
+
                         <div className="relative z-10 flex-shrink-0">
                             <div className="p-4 bg-emerald-500/10 rounded-2xl text-emerald-500 group-hover:bg-emerald-500 group-hover:text-white transition-colors">
                                 <Award size={32} />
