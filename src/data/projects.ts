@@ -2,6 +2,24 @@ import type { Project } from '../types';
 
 export const projectsData: Project[] = [
     {
+        ID: 4,
+        title: 'EFF Transfer System',
+        description: 'A full-stack system built for the Ethiopian Football Federation to manage player transfers, tracking, ID generation, and financial analytics.',
+        image_url: '/asset/project/Eff%20Transfer%20System/main.png',
+        images: [
+            '/asset/project/Eff%20Transfer%20System/main.png',
+            '/asset/project/Eff%20Transfer%20System/2.png',
+            '/asset/project/Eff%20Transfer%20System/1.png',
+            '/asset/project/Eff%20Transfer%20System/4.png',
+            '/asset/project/Eff%20Transfer%20System/3.png',
+            '/asset/project/Eff%20Transfer%20System/5.png'
+        ],
+        github_link: '',
+        demo_link: '',
+        tags: 'Next.js (full-stack), Tailwind CSS, PostgreSQL, Webhooks, Chappa (payment integration)',
+        category: 'software'
+    },
+    {
         ID: 3,
         title: 'Addis Teqeray',
         description: 'A UX-focused Flutter mobile application for finding homes in Addis Ababa. Features local caching with SQLite for offline access, smooth navigation with GetX state management, and a user-friendly interface designed for seamless property searching and discovery.',
